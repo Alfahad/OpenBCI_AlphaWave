@@ -25,3 +25,4 @@ In order to make this demo works, you have to:
 # TO DO
 - Upload iOS App to the App Store
 - Work on the Android App
+- Add enable baseline button to establish the correct thresholds
