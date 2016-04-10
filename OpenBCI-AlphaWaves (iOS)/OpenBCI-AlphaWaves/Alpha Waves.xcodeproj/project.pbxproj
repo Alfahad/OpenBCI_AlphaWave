@@ -1,0 +1,366 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		450A2E7D1CB9854600342738 /* OpenBCI_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 450A2E7C1CB9854600342738 /* OpenBCI_Logo.png */; };
+		454461231CB9773100C817B7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 454461221CB9773100C817B7 /* main.m */; };
+		454461291CB9773100C817B7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454461281CB9773100C817B7 /* ViewController.m */; };
+		4544612F1CB9773100C817B7 /* OpenBCI_AlphaWaves.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4544612D1CB9773100C817B7 /* OpenBCI_AlphaWaves.xcdatamodeld */; };
+		454461311CB9773100C817B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 454461301CB9773100C817B7 /* Assets.xcassets */; };
+		454461341CB9773100C817B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 454461321CB9773100C817B7 /* LaunchScreen.storyboard */; };
+		454461641CB9776800C817B7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 454461591CB9776800C817B7 /* AppDelegate.m */; };
+		454461651CB9776800C817B7 /* CustomCellBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 4544615B1CB9776800C817B7 /* CustomCellBackground.m */; };
+		454461661CB9776800C817B7 /* RFduino.m in Sources */ = {isa = PBXBuildFile; fileRef = 4544615D1CB9776800C817B7 /* RFduino.m */; };
+		454461671CB9776800C817B7 /* RfduinoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 454461601CB9776800C817B7 /* RfduinoManager.m */; };
+		454461681CB9776800C817B7 /* ScanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 454461631CB9776800C817B7 /* ScanViewController.m */; };
+		4544616A1CB97E7C00C817B7 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 454461691CB97E7C00C817B7 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		450A2E7C1CB9854600342738 /* OpenBCI_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OpenBCI_Logo.png; sourceTree = "<group>"; };
+		4544611E1CB9773000C817B7 /* Alpha Waves.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Alpha Waves.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		454461221CB9773100C817B7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		454461271CB9773100C817B7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		454461281CB9773100C817B7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4544612E1CB9773100C817B7 /* OpenBCI_AlphaWaves.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = OpenBCI_AlphaWaves.xcdatamodel; sourceTree = "<group>"; };
+		454461301CB9773100C817B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		454461331CB9773100C817B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		454461351CB9773100C817B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		454461581CB9776800C817B7 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		454461591CB9776800C817B7 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4544615A1CB9776800C817B7 /* CustomCellBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCellBackground.h; sourceTree = "<group>"; };
+		4544615B1CB9776800C817B7 /* CustomCellBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCellBackground.m; sourceTree = "<group>"; };
+		4544615C1CB9776800C817B7 /* RFduino.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduino.h; sourceTree = "<group>"; };
+		4544615D1CB9776800C817B7 /* RFduino.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RFduino.m; sourceTree = "<group>"; };
+		4544615E1CB9776800C817B7 /* RFduinoDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduinoDelegate.h; sourceTree = "<group>"; };
+		4544615F1CB9776800C817B7 /* RfduinoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RfduinoManager.h; sourceTree = "<group>"; };
+		454461601CB9776800C817B7 /* RfduinoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RfduinoManager.m; sourceTree = "<group>"; };
+		454461611CB9776800C817B7 /* RFduinoManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RFduinoManagerDelegate.h; sourceTree = "<group>"; };
+		454461621CB9776800C817B7 /* ScanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanViewController.h; sourceTree = "<group>"; };
+		454461631CB9776800C817B7 /* ScanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanViewController.m; sourceTree = "<group>"; };
+		454461691CB97E7C00C817B7 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4544611B1CB9773000C817B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		454461151CB9773000C817B7 = {
+			isa = PBXGroup;
+			children = (
+				454461201CB9773100C817B7 /* OpenBCI-AlphaWaves */,
+				4544611F1CB9773000C817B7 /* Products */,
+				454461571CB9776800C817B7 /* rfduino */,
+			);
+			sourceTree = "<group>";
+		};
+		4544611F1CB9773000C817B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4544611E1CB9773000C817B7 /* Alpha Waves.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		454461201CB9773100C817B7 /* OpenBCI-AlphaWaves */ = {
+			isa = PBXGroup;
+			children = (
+				454461271CB9773100C817B7 /* ViewController.h */,
+				454461281CB9773100C817B7 /* ViewController.m */,
+				454461301CB9773100C817B7 /* Assets.xcassets */,
+				454461321CB9773100C817B7 /* LaunchScreen.storyboard */,
+				454461691CB97E7C00C817B7 /* ViewController.xib */,
+				450A2E7C1CB9854600342738 /* OpenBCI_Logo.png */,
+				454461351CB9773100C817B7 /* Info.plist */,
+				4544612D1CB9773100C817B7 /* OpenBCI_AlphaWaves.xcdatamodeld */,
+				454461211CB9773100C817B7 /* Supporting Files */,
+			);
+			path = "OpenBCI-AlphaWaves";
+			sourceTree = "<group>";
+		};
+		454461211CB9773100C817B7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				454461221CB9773100C817B7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		454461571CB9776800C817B7 /* rfduino */ = {
+			isa = PBXGroup;
+			children = (
+				454461581CB9776800C817B7 /* AppDelegate.h */,
+				454461591CB9776800C817B7 /* AppDelegate.m */,
+				4544615A1CB9776800C817B7 /* CustomCellBackground.h */,
+				4544615B1CB9776800C817B7 /* CustomCellBackground.m */,
+				4544615C1CB9776800C817B7 /* RFduino.h */,
+				4544615D1CB9776800C817B7 /* RFduino.m */,
+				4544615E1CB9776800C817B7 /* RFduinoDelegate.h */,
+				4544615F1CB9776800C817B7 /* RfduinoManager.h */,
+				454461601CB9776800C817B7 /* RfduinoManager.m */,
+				454461611CB9776800C817B7 /* RFduinoManagerDelegate.h */,
+				454461621CB9776800C817B7 /* ScanViewController.h */,
+				454461631CB9776800C817B7 /* ScanViewController.m */,
+			);
+			path = rfduino;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4544611D1CB9773000C817B7 /* Alpha Waves */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4544614E1CB9773100C817B7 /* Build configuration list for PBXNativeTarget "Alpha Waves" */;
+			buildPhases = (
+				4544611A1CB9773000C817B7 /* Sources */,
+				4544611B1CB9773000C817B7 /* Frameworks */,
+				4544611C1CB9773000C817B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Alpha Waves";
+			productName = "OpenBCI-AlphaWaves";
+			productReference = 4544611E1CB9773000C817B7 /* Alpha Waves.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		454461161CB9773000C817B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Hassan Albalawi";
+				TargetAttributes = {
+					4544611D1CB9773000C817B7 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = XJBGXS6R8L;
+					};
+				};
+			};
+			buildConfigurationList = 454461191CB9773000C817B7 /* Build configuration list for PBXProject "Alpha Waves" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 454461151CB9773000C817B7;
+			productRefGroup = 4544611F1CB9773000C817B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4544611D1CB9773000C817B7 /* Alpha Waves */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4544611C1CB9773000C817B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454461341CB9773100C817B7 /* LaunchScreen.storyboard in Resources */,
+				4544616A1CB97E7C00C817B7 /* ViewController.xib in Resources */,
+				454461311CB9773100C817B7 /* Assets.xcassets in Resources */,
+				450A2E7D1CB9854600342738 /* OpenBCI_Logo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4544611A1CB9773000C817B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				454461651CB9776800C817B7 /* CustomCellBackground.m in Sources */,
+				454461681CB9776800C817B7 /* ScanViewController.m in Sources */,
+				454461661CB9776800C817B7 /* RFduino.m in Sources */,
+				454461291CB9773100C817B7 /* ViewController.m in Sources */,
+				4544612F1CB9773100C817B7 /* OpenBCI_AlphaWaves.xcdatamodeld in Sources */,
+				454461671CB9776800C817B7 /* RfduinoManager.m in Sources */,
+				454461231CB9773100C817B7 /* main.m in Sources */,
+				454461641CB9776800C817B7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		454461321CB9773100C817B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				454461331CB9773100C817B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4544614C1CB9773100C817B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4544614D1CB9773100C817B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4544614F1CB9773100C817B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "OpenBCI-AlphaWaves/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ksaus.OpenBCI-AlphaWaves";
+				PRODUCT_NAME = "Alpha Waves";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		454461501CB9773100C817B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "OpenBCI-AlphaWaves/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ksaus.OpenBCI-AlphaWaves";
+				PRODUCT_NAME = "Alpha Waves";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		454461191CB9773000C817B7 /* Build configuration list for PBXProject "Alpha Waves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4544614C1CB9773100C817B7 /* Debug */,
+				4544614D1CB9773100C817B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4544614E1CB9773100C817B7 /* Build configuration list for PBXNativeTarget "Alpha Waves" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4544614F1CB9773100C817B7 /* Debug */,
+				454461501CB9773100C817B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4544612D1CB9773100C817B7 /* OpenBCI_AlphaWaves.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4544612E1CB9773100C817B7 /* OpenBCI_AlphaWaves.xcdatamodel */,
+			);
+			currentVersion = 4544612E1CB9773100C817B7 /* OpenBCI_AlphaWaves.xcdatamodel */;
+			path = OpenBCI_AlphaWaves.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 454461161CB9773000C817B7 /* Project object */;
+}
