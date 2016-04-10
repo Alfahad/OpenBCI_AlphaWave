@@ -1,6 +1,9 @@
 # OpenBCI AlphaWave
 Measure your Alpha Wave using OpenBCI 32-bit board with iOS App
 
+# Video of the Demo
+https://www.youtube.com/watch?v=SLth9WrIz3I
+
 
 # What does it do
 This demonstration serves the basics for:
