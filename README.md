@@ -21,9 +21,14 @@ The 32bit OpenBCI Board implements the [PIC32MX250F128B](http://www.microchip.c
 When I was working on this project, I had more than one idea to demonstrate this work, but I decided to work on a frequency-based BCI application. In particular, to measure the Alpha amplitude since it almost everyone (~85%) of us can produce Alpha waves when we close our eyes; it's even stronger when EEG is read from the occipital region of the brain. Therefore, this is exactly what I've done here. To make a sense of the Alpha measures, I related it to user's alertness; by saying higher Alpha indicates lower alert level because you're eyes are closed. This is just an assumption for the purpose of this demo, because user's alertness cannot be really defined by a single measures; it's more complicated than that.
 
 I like the approach done by the EEGHacker to [detect Alpha Waves](http://eeghacker.blogspot.qa/2013/11/openbci-alpha-wave-detector.html) using OpenBCI 8-bit version. It's a straightforward approach to pre-process raw data, measure Alpha amplitude, and act on the data. I've followed a similar approach in pre-processing data, but I implemented a counter-based method to act on data. Also, I implemented a method to create a baseline in order to act on data properly for different users; since we don't produce the same amplitude of Alpha. The following flowchart diagram illustrate the algorithm flow:  
-[![General Flowchart - New Page](http://openbci.com/community/wp-content/uploads/2016/04/General-Flowchart-New-Page-e1460833325624-844x1024.png)](http://openbci.com/community/wp-content/uploads/2016/04/General-Flowchart-New-Page-e1460831192684.png)
+
+![General Flowchart - New Page](http://openbci.com/community/wp-content/uploads/2016/04/General-Flowchart-New-Page-e1460833325624-844x1024.png)]
 
 The counter-based approach is implemented, which look into the Alpha amplitude if it's higher/lower than a specific threshold to increase/decrease the counter. Those thresholds are established in the baseline step, but the default setting is using a pre-determined thresholds. They worked for me & some of my friends too, but it might be different for other people; therefore, the algorithm can determine them if the baseline is enabled by setting "boolean UseStandardBase = false" in the code.
+
+
+![FlowChart](http://openbci.com/community/wp-content/uploads/2016/04/General-Flowchart-New-Page-e1460831192684.png)
+
 
 The following chart illustrate the counter-based approach:
 
