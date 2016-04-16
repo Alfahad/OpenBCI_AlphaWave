@@ -27,7 +27,7 @@ I like the approach done by the EEGHacker to [detect Alpha Waves](http://eeghac
 The counter-based approach is implemented, which look into the Alpha amplitude if it's higher/lower than a specific threshold to increase/decrease the counter. Those thresholds are established in the baseline step, but the default setting is using a pre-determined thresholds. They worked for me & some of my friends too, but it might be different for other people; therefore, the algorithm can determine them if the baseline is enabled by setting "boolean UseStandardBase = false" in the code.
 
 
-![FlowChart](http://openbci.com/community/wp-content/uploads/2016/04/General-Flowchart-New-Page-e1460831192684.png)
+![FlowChart](http://openbci.com/community/wp-content/uploads/2016/04/Detection-Block-AlphaWave-New-Page-1.png)
 
 
 The following chart illustrate the counter-based approach:
